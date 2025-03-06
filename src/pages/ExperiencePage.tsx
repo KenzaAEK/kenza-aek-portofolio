@@ -28,16 +28,21 @@ const experienceCategories = {
         technologies: ['PowerBI', 'Looker', 'Python', 'TensorFlow','OpenCV']
       },
       {
-        role: 'Junior Developer',
-        company: 'StartUp Vision',
-        location: 'Remote',
-        date: 'Jan 2023 - May 2023',
+        role: 'AI Research Intern',
+        company: 'CHU',
+        location: 'On-Site',
+        date: 'July 2024 - Present',
         achievements: [
-          'Built responsive web components using React and Tailwind CSS',
-          'Implemented user authentication system with JWT',
-          'Participated in daily stand-ups and code reviews'
+          'Developed an AI-powered application to assist in diagnosing pneumonia through automated analysis of chest X-ray images using deep learning techniques.',
+          'Designed and implemented a Convolutional Neural Network (CNN) model for image classification, achieving high accuracy in detecting pneumonia presence.',
+          'Utilized Transfer Learning with pretrained models (e.g., ResNet, EfficientNet) to enhance model performance and reduce training time.',
+          'Preprocessed and augmented medical image datasets to improve generalization and model robustness.',
+          'Evaluated model performance using accuracy, precision, recall, and AUC-ROC to ensure reliability and effectiveness.',
+          'Built a user-friendly interface for medical professionals to upload X-ray images and receive instant diagnostic predictions.',
+          'Deployed the application using Flask/Streamlit and containerized it with Docker for scalability and ease of use.',
+          'Prioritized data security and ensured compliance with medical data privacy standards.'
         ],
-        technologies: ['React', 'Tailwind CSS', 'Firebase', 'Jest']
+        technologies: ['Python', 'TensorFlow', 'PyTorch', 'OpenCV', 'scikit-learn', 'NumPy', 'Pandas', 'Flask', 'Streamlit', 'Docker', 'Git']
       }
     ]
   },
@@ -46,55 +51,159 @@ const experienceCategories = {
     title: 'Leadership',
     items: [
       {
-        role: 'Tech Club President',
-        company: 'University Tech Society',
+        role: 'Event Coordinator',
+        company: 'Real-World Challenge Initiative',
+        location: 'University Campus',
+        date: '2023 - Present',
+        achievements: [
+          'Led a team of 20+ members in organizing a large-scale event focused on solving real-world challenges, promoting critical thinking and problem-solving skills for young engineers.',
+          'Coordinated logistics, sponsorships, and collaboration between different teams to ensure smooth execution of the event.',
+          'Designed and managed a **problem-solving competition**, **critical thinking workshops**, and **conferences** featuring industry professionals and experts.',
+          'Secured sponsorships and partnerships to provide valuable resources and opportunities for participants.',
+          'Successfully engaged students and professionals, fostering a learning environment that emphasized innovation and structured problem resolution.'
+        ],
+        technologies: ['Event Management', 'Team Leadership', 'Logistics Coordination', 'Sponsorship Acquisition', 'Public Speaking']
+      },
+      {
+        role: 'AI Section Lead',
+        company: 'Computer Science Club',
         location: 'University Campus',
         date: '2022 - Present',
         achievements: [
-          'Led a team of 20+ members in organizing tech workshops and hackathons',
-          'Increased club membership by 150% through outreach initiatives',
-          'Established partnerships with 5 tech companies for student opportunities'
+          'Led the AI section of the Computer Science Club, organizing **continuous workshops** to teach students the fundamentals of artificial intelligence.',
+          'Designed structured learning sessions covering AI concepts, the **AI development process**, and key algorithms such as neural networks, decision trees, and reinforcement learning.',
+          'Developed interactive **hands-on labs**, enabling students to apply AI techniques to real-world problems, making AI more accessible and easier to learn.',
+          'Mentored students through practical projects, fostering an engaging and collaborative learning environment that encouraged exploration and innovation in AI.',
+          'Established a knowledge-sharing culture within the club, enabling students to transition from theoretical understanding to practical AI applications.'
         ],
-        technologies: ['Event Planning', 'Team Leadership', 'Public Speaking']
+        technologies: ['Artificial Intelligence', 'Teaching & Mentorship', 'Workshop Organization', 'Machine Learning', 'Hands-on Labs']
+      },
+      {
+        role: 'Debate Team Leader',
+        company: 'University Debate Society',
+        location: 'University Campus',
+        date: '2021 - Present',
+        achievements: [
+          'Led the university’s debate team, organizing **round-table discussions** and **training sessions** to enhance students’ critical thinking and public speaking skills.',
+          'Developed structured **debate training programs**, covering research techniques, argument structuring, rebuttal strategies, and persuasive communication.',
+          'Organized **inter-university debate tournaments**, allowing students to refine their reasoning abilities and gain confidence in public discourse.',
+          'Fostered a collaborative and competitive environment where students could **express ideas confidently, challenge perspectives, and refine their analytical skills**.',
+          'Guided new members through debate methodologies, helping them develop logical reasoning and articulate well-structured arguments effectively.'
+        ],
+        technologies: ['Public Speaking', 'Critical Thinking', 'Debate Coaching', 'Leadership', 'Event Organization']
       }
     ]
   },
+  
   volunteer: {
     icon: Heart,
     title: 'Volunteer',
     items: [
       {
-        role: 'Code Mentor',
-        company: 'CodePath.org',
-        location: 'Virtual',
-        date: '2022 - Present',
+        role: 'Freelance Graphic Designer',
+        company: 'Local Businesses',
+        location: 'Remote',
+        date: '2021 - Present',
         achievements: [
-          'Mentored 15+ students in web development fundamentals',
-          'Created learning materials for JavaScript and React courses',
-          'Conducted weekly office hours and code reviews'
+          'Designed **logos, menus, and social media pages** for small businesses to help improve their branding and online presence.',
+          'Worked closely with business owners to understand their vision and create **engaging and professional visual identities**.',
+          'Developed skills in **graphic design, branding, and social media marketing** while supporting local entrepreneurs.'
         ],
-        technologies: ['Teaching', 'Web Development', 'Mentorship']
+        technologies: ['Graphic Design', 'Branding', 'Social Media Marketing', 'Adobe Photoshop', 'Canva']
+      },
+      {
+        role: 'Tutor & Mentor',
+        company: 'Community Education Initiative',
+        location: 'Local & Remote',
+        date: '2020 - Present',
+        achievements: [
+          'Provided **academic tutoring** in math, science, and language subjects, helping students improve their performance and confidence.',
+          'Mentored younger students, guiding them through **study strategies, personal development, and career orientation**.',
+          'Created **customized learning materials** to make lessons engaging and accessible for different age groups.'
+        ],
+        technologies: ['Teaching', 'Mentorship', 'Lesson Planning', 'Student Engagement']
+      },
+      {
+        role: 'Humanitarian Volunteer & Charity Organizer',
+        company: 'Village Aid Mission',
+        location: 'Rural & Local Communities',
+        date: '2021 - Present',
+        achievements: [
+          'Participated in a **humanitarian trip** to build a **water well**, improving access to clean drinking water for local families.',
+          'Organized food drives and a **Ftour Basket Initiative**, providing over **100 meals** during Ramadan to families in need.',
+          'Led **seasonal clothes donation drives**, collecting, sorting, and distributing warm clothing to underprivileged communities.',
+          'Coordinated volunteers and donors to ensure effective distribution of resources and maximize community impact.'
+        ],
+        technologies: ['Community Outreach', 'Humanitarian Aid', 'Fundraising', 'Project Coordination']
+      },     
+      {
+        role: 'Children’s Activity Center Volunteer',
+        company: 'Local Community Center',
+        location: 'Local',
+        date: '2021 - 2023',
+        achievements: [
+          'Organized and led **baking, art, and interactive activities** for children at a local community center.',
+          'Helped create a **fun and educational environment**, fostering creativity and teamwork among kids.',
+          'Engaged children in **hands-on learning experiences**, enhancing their social skills and confidence through interactive workshops.'
+        ],
+        technologies: ['Youth Engagement', 'Activity Planning', 'Creative Education', 'Event Coordination']
       }
     ]
   },
+  
   awards: {
     icon: Award,
     title: 'Awards',
     items: [
       {
-        role: 'First Place',
-        company: 'University Hackathon 2023',
-        location: 'University Campus',
-        date: 'Oct 2023',
+        role: 'First Place - Top Speaker Award',
+        company: 'Public Speaking Competition',
+        location: 'Morocco',
+        date: '2023',
         achievements: [
-          'Developed an AI-powered accessibility tool for visually impaired users',
-          'Implemented real-time image recognition using TensorFlow',
-          'Presented solution to panel of industry judges'
+          'Won **first place** in a national public speaking competition, delivering a speech on Moroccan youth and the power of solidarity.',
+          'Highlighted Morocco’s resilience through key events such as the **World Cup celebrations** and the **community response to the Haouz earthquake**.',
+          'Demonstrated exceptional **oratory skills, storytelling, and audience engagement**, making a lasting impact on the judges and audience.'
         ],
-        technologies: ['React Native', 'TensorFlow', 'Azure Cloud']
+        technologies: ['Public Speaking', 'Storytelling', 'Persuasive Communication']
+      },
+      {
+        role: 'First Place - NASA Space Apps Challenge',
+        company: 'NASA International Hackathon',
+        location: 'Global',
+        date: '2023',
+        achievements: [
+          'Developed an **interactive web application** using **Vue.js** with **3D visualizations** of planets and Near-Earth Objects (NEOs) using **Blender and Three.js**.',
+          'Created an **educational 2D game** with **Godot 4**, integrating interactive quizzes to enhance scientific learning.',
+          'Implemented a **Machine Learning model** using **RNN with LSTM** in **Python (TensorFlow & Keras)** to predict NEO-related events.'
+        ],
+        technologies: ['Vue.js', 'Three.js', 'Godot 4', 'TensorFlow', 'Keras', 'Machine Learning']
+      },
+      {
+        role: 'Second Place - NASA Space Apps Challenge',
+        company: 'NASA International Hackathon',
+        location: 'Global',
+        date: '2022',
+        achievements: [
+          'Designed a **platform transforming Synthetic Aperture Radar (SAR) imagery** into artistic works, promoting the beauty within scientific data.',
+          'Utilized **SNAP software** for **radar image preprocessing** and integrated **Bender** for converting radar imagery into unique artistic creations.'
+        ],
+        technologies: ['SNAP Software', 'Bender', 'Radar Imagery Processing']
+      },
+      {
+        role: 'Third Place - Nexus Forum Hackathon',
+        company: 'Nexus Forum',
+        location: 'Morocco',
+        date: '2023',
+        achievements: [
+          'Developed **EcoCrops**, a digital platform promoting sustainable agriculture through AI-driven recommendations and interactive dashboards.',
+          'Designed a system allowing farmers to **plan crops efficiently, monitor growth through dashboards, and optimize yields while reducing waste**.',
+          'Integrated **AI models** to provide **personalized recommendations** and facilitate **data-driven decision-making** for farmers.'
+        ],
+        technologies: ['AI for Agriculture', 'Data Visualization', 'Dashboard Development']
       }
     ]
-  }
+  }  
 };
 
 export const ExperiencePage = () => {
