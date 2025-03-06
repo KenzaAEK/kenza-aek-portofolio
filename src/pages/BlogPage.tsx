@@ -220,29 +220,6 @@ export const BlogPage = () => {
         description="A collection of thoughts, stories, and insights from my journey in tech and leadership"
       />
 
-      {/* Author Introduction */}
-      <section className="bg-gradient-to-b from-mint-50/50 to-white py-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center gap-6 max-w-3xl mx-auto">
-            <img
-              src="/kenzavatar.png"
-              alt="Kenza ABOU-EL KASEM"
-              className="w-24 h-24 rounded-full border-4 border-white shadow-lg"
-            />
-            <div>
-              <h2 className="text-2xl font-bold text-gray-900 mb-2">
-                Hi, I'm Kenza
-              </h2>
-              <p className="text-gray-600">
-                I write about technology, leadership, and the intersection of
-                both. Here, you'll find my thoughts on AI ethics, stories from
-                leading tech communities, and technical deep-dives into software
-                development.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="py-20 bg-white">
         <motion.div
