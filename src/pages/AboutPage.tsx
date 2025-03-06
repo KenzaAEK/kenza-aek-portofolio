@@ -7,27 +7,28 @@ import { PageHeader } from '../components/Layout/PageHeader';
 // Career highlights data
 const careerHighlights = [
   {
-    year: '2023',
-    title: 'Lead Developer',
-    company: 'Tech Innovators Inc.',
+    year: '2025',
+    title: 'Nexus Forum Hackathon',
+    company: 'Nexus Forum',
     description:
-      'Led a team of developers in creating cutting-edge web applications, implementing best practices and modern architectures.',
+      'Built "EcoCrops," an AI-powered platform that bridges technology and sustainability, empowering farmers with data-driven insights to make smarter agricultural decisions.',
     achievements: [
-      'Increased team productivity by 40% through improved workflows',
-      'Successfully delivered 5 major projects ahead of schedule',
-      'Mentored 3 junior developers to become mid-level engineers',
+      'Designed an intelligent system that helps farmers strategically plan crops, monitor growth, and maximize yields while minimizing waste.',
+      'Integrated AI models to deliver personalized recommendations, transforming complex data into actionable guidance for farmers.',
+      'Proved that AI and sustainability can work in harmony by addressing real-world agricultural challenges with innovative solutions.',
     ],
   },
   {
-    year: '2022',
-    title: 'Senior Frontend Developer',
-    company: 'Digital Solutions Ltd.',
+    year: '2022 - Present',
+    title: 'Leading AI Workshops ',
+    company: 'Computer Science Club',
     description:
-      'Specialized in creating responsive and accessible web applications using React and modern frontend technologies.',
+      'Led AI initiatives to make artificial intelligence more approachable and engaging for students, bridging the gap between theory and hands-on experience.',
     achievements: [
-      'Reduced application load time by 60%',
-      'Implemented comprehensive testing strategy',
-      'Led the migration to TypeScript across projects',
+      'Designed structured learning experiences that demystify AI concepts, covering everything from neural networks to reinforcement learning.',
+      'Created immersive hands-on labs, allowing students to apply AI to real-world challenges, making learning both engaging and impactful.',
+      'Mentored aspiring AI enthusiasts, fostering an inclusive and collaborative learning environment that inspires curiosity and innovation.',
+      'Cultivated a culture of knowledge-sharing, helping students gain the confidence to transition from passive learners to active AI practitioners.',
     ],
   },
 ];
@@ -200,7 +201,7 @@ export const AboutPage = () => {
           </motion.div>
 
           {/* Awards & Recognition */}
-          <motion.div variants={itemVariants}>
+          {/* <motion.div variants={itemVariants}>
             <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">
               Awards & Recognition
             </h2>
@@ -227,7 +228,7 @@ export const AboutPage = () => {
                 </motion.div>
               ))}
             </div>
-          </motion.div>
+          </motion.div> */}
         </motion.div>
       </section>
     </motion.div>

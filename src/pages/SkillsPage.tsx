@@ -133,7 +133,7 @@ export const SkillsPage = () => {
             ))}
           </div>
 
-          <motion.div variants={itemVariants}>
+          {/* <motion.div variants={itemVariants}>
             <h3 className="text-2xl font-semibold text-gray-900 mb-8 text-center">
               Certifications
             </h3>
@@ -160,7 +160,7 @@ export const SkillsPage = () => {
                 </motion.div>
               ))}
             </div>
-          </motion.div>
+              </motion.div> */}
 
         </motion.div>
       </section>
