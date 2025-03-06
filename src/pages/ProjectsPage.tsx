@@ -5,14 +5,15 @@ import { ExternalLink, Github, Star, X, Code2 } from 'lucide-react';
 import { PageHeader } from '../components/Layout/PageHeader';
 
 const featuredProject = {
-  title: 'E-Commerce Platform',
-  description: 'A modern e-commerce platform built with React and Node.js, featuring real-time inventory management, secure payment processing with Stripe, and a responsive admin dashboard. The platform supports multiple vendors, product categories, and includes an analytics system.',
-  image: 'https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-  technologies: ['React', 'Node.js', 'Stripe', 'MongoDB', 'Redux', 'TypeScript'],
+  title: 'Explore Morocco: Intelligent Tourist Assistant',
+  description: 'A digital platform modernizing Moroccan tourism through interactive and intelligent tools.',
+  image: 'https://source.unsplash.com/600x400/?travel,technology',
+  technologies: ['Spring Boot', 'Spring Cloud', 'React.js', 'Mapbox', 'JWT', 'TensorFlow', 'Docker', 'Kubernetes', 'GitHub Actions'],
   challenges: [
-    'Implemented real-time inventory synchronization across multiple vendors',
-    'Optimized image loading and caching for faster page loads',
-    'Developed a scalable architecture to handle high traffic loads',
+    'Developed a microservices-based platform with secured authentication using JWT.',
+    'Created an interactive user interface with chatbot and dynamic filters for seamless navigation.',
+    'Implemented an AI-powered itinerary planner using TensorFlow for personalized travel recommendations.',
+    'Deployed microservices using Docker and Kubernetes on a scalable cloud infrastructure.'
   ],
   liveUrl: '#',
   githubUrl: '#',
@@ -20,45 +21,91 @@ const featuredProject = {
 
 const projects = [
   {
-    title: 'Task Management App',
-    description: 'A collaborative task management application with real-time updates and team collaboration features.',
-    image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-    technologies: ['React', 'Firebase', 'Tailwind CSS', 'Redux'],
+    title: 'AI-Powered Pneumonia Diagnosis',
+    description: 'An AI-driven application designed to assist in diagnosing pneumonia by analyzing chest X-ray images with deep learning techniques.',
+    image: 'https://source.unsplash.com/600x400/?healthcare,AI',
+    technologies: ['Python', 'TensorFlow', 'OpenCV', 'scikit-learn', 'NumPy', 'Pandas', 'Flask', 'Streamlit', 'Docker', 'Git'],
     challenges: [
-      'Implemented real-time updates using WebSocket',
-      'Built a drag-and-drop interface for task management',
-      'Integrated team chat and notification system',
+      'Developed an AI-powered application to assist in diagnosing pneumonia through automated analysis of chest X-ray images.',
+      'Designed and implemented a Convolutional Neural Network (CNN) model for image classification, achieving high accuracy in detecting pneumonia presence.',
+      'Utilized Transfer Learning with pretrained models (e.g., ResNet, EfficientNet) to enhance model performance and reduce training time.',
+      'Preprocessed and augmented medical image datasets to improve generalization and model robustness.',
+      'Evaluated model performance using accuracy, precision, recall, and AUC-ROC to ensure reliability and effectiveness.',
+      'Built a user-friendly interface for medical professionals to upload X-ray images and receive instant diagnostic predictions.',
+      'Deployed the application using Flask/Streamlit and containerized it with Docker for scalability and ease of use.',
+      'Prioritized data security and ensured compliance with medical data privacy standards.'
     ],
     liveUrl: '#',
     githubUrl: '#',
   },
   {
-    title: 'Weather Dashboard',
-    description: 'A weather dashboard with interactive maps and detailed forecasts using multiple weather APIs.',
-    image: 'https://images.unsplash.com/photo-1561484930-998b6a7b22e8?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-    technologies: ['React', 'OpenWeather API', 'Chart.js', 'Mapbox'],
+    title: 'Optimization of Industrial Water Pump Maintenance',
+    description: 'An AI-driven predictive maintenance system for industrial water pumps using deep learning and genetic algorithms.',
+    image: 'https://source.unsplash.com/600x400/?industry,AI',
+    technologies: ['LSTM', 'Genetic Algorithms', 'TensorFlow', 'Python'],
     challenges: [
-      'Integrated multiple weather data sources',
-      'Built interactive weather maps',
-      'Implemented efficient data caching',
+      'Developed an AI model combining LSTM networks and genetic algorithms to enhance predictive maintenance.',
+      'Trained LSTM models to analyze sensor data and predict potential failures.',
+      'Optimized maintenance schedules using genetic algorithms, reducing operational costs and downtime.'
     ],
     liveUrl: '#',
     githubUrl: '#',
   },
   {
-    title: 'Social Media Analytics',
-    description: 'A comprehensive analytics dashboard for social media management and performance tracking.',
-    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80',
-    technologies: ['React', 'D3.js', 'Node.js', 'PostgreSQL'],
+    title: 'Solar System and NEOs Visualization Platform',
+    description: 'An interactive web-based educational tool for exploring the solar system and Near-Earth Objects (NEOs), awarded 1st place at NASA Space Apps Challenge Tanger 2024.',
+    image: 'https://source.unsplash.com/600x400/?space,science',
+    technologies: ['Vue.js', 'Three.js', 'Blender', 'Godot 4', 'TensorFlow', 'Keras', 'Python'],
     challenges: [
-      'Created interactive data visualizations',
-      'Implemented real-time data processing',
-      'Built a custom reporting engine',
+      'Developed an interactive web application visualizing 3D planets and NEOs using real NASA data.',
+      'Built an integrated 2D learning game with Godot 4 to reinforce learning through interactive quizzes.',
+      'Implemented a Machine Learning model using RNN with LSTM for predicting NEO-related events.'
     ],
     liveUrl: '#',
     githubUrl: '#',
   },
+  {
+    title: 'Cookly: AI-Powered Recipe Recommendation App',
+    description: 'A mobile application that helps users discover personalized recipes based on available ingredients and nutritional goals.',
+    image: 'https://source.unsplash.com/600x400/?food,app',
+    technologies: ['Next.js', 'React Native', 'MongoDB', 'GPT AI', 'Docker', 'Kubernetes', 'GitHub Actions'],
+    challenges: [
+      'Developed a scalable mobile platform with real-time recipe recommendations.',
+      'Integrated an intelligent search engine with advanced filters (dietary restrictions, calories) powered by AI.',
+      'Deployed the application on a cloud infrastructure using Docker, Kubernetes, and CI/CD pipelines.'
+    ],
+    liveUrl: '#',
+    githubUrl: '#',
+  },
+  {
+    title: 'Ecocrops: AI-Driven Sustainable Agriculture Platform',
+    description: 'A digital platform enabling farmers to optimize crop planning and adopt sustainable agricultural practices.',
+    image: 'https://source.unsplash.com/600x400/?agriculture,technology',
+    technologies: ['React.js', 'AI Models', 'APIs', 'JUnit', 'Postman', 'Jenkins'],
+    challenges: [
+      'Designed an intuitive user interface for farmers to access AI-powered recommendations.',
+      'Integrated APIs connecting AI models with real-time agricultural data.',
+      'Implemented a CI/CD pipeline using Jenkins for automated testing and deployment.'
+    ],
+    liveUrl: '#',
+    githubUrl: '#',
+  },
+  {
+    title: 'E-Move: Smart Electric Mobility Platform',
+    description: 'A web and mobile application for electric vehicle sharing, optimized through AI and predictive analytics.',
+    image: 'https://source.unsplash.com/600x400/?electric,vehicles',
+    technologies: ['Next.js', 'React Native', 'FastAPI', 'Flask', 'PostgreSQL', 'MongoDB', 'Docker', 'Kubernetes', 'AWS', 'Azure'],
+    challenges: [
+      'Developed a real-time GPS tracking system for electric vehicle location and monitoring.',
+      'Built an AI-powered predictive maintenance system to optimize vehicle distribution and battery usage.',
+      'Integrated an interactive chatbot for smart reservation assistance using LLM-based models.',
+      'Implemented multimodal trip planning with integration of public transport options.'
+    ],
+    liveUrl: '#',
+    githubUrl: '#',
+  }
 ];
+
 
 interface ProjectModalProps {
   project: typeof projects[0];
