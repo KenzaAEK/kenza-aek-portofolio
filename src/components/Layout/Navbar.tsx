@@ -80,7 +80,7 @@ export const Navbar = () => {
             <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
-              href="/resume.pdf"
+              href="/ABOU-EL KASEM Kenza Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center px-4 py-2 rounded-lg text-mint-600 border-2 border-mint-600 hover:bg-gradient-to-r hover:from-mint-600 hover:to-soft-blue-600 hover:text-white transition-all duration-300"
@@ -132,7 +132,7 @@ export const Navbar = () => {
 
             {/* Mobile Resume Button */}
             <a
-              href="/resume.pdf"
+              href="/ABOU-EL KASEM Kenza Resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center w-full px-4 py-3 mt-2 rounded-lg text-white bg-gradient-to-r from-mint-600 to-soft-blue-600 hover:from-mint-700 hover:to-soft-blue-700 transition-colors"
