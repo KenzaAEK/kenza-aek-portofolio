@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { ArrowRight } from 'lucide-react';
 
 export const HomePage = () => {
   return (
@@ -54,27 +55,27 @@ export const HomePage = () => {
           </motion.p>
 
           <motion.div
-            initial={{ y: 20, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.4 }}
-            className="flex justify-center space-x-4"
+        initial={{ y: 20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ delay: 0.5 }}
+        className="flex gap-4"
           >
-            <motion.a
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              href="/projects"
-              className="bg-mint-600 text-white px-8 py-3 rounded-lg font-medium shadow-lg hover:bg-mint-700 transition-colors"
-            >
-              View My Work
-            </motion.a>
-            <motion.a
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              href="/contact"
-              className="bg-white text-mint-600 px-8 py-3 rounded-lg font-medium shadow-lg hover:bg-gray-50 transition-colors"
-            >
-              Get in Touch
-            </motion.a>
+<div className="flex flex-wrap gap-4">
+  <Link 
+    to="/projects" 
+    className="bg-mint-600 text-white px-8 py-4 rounded-lg font-medium shadow-lg hover:bg-mint-700 transition-colors inline-flex items-center justify-center gap-2 min-w-[200px] md:min-w-[180px]"
+  >
+    View My Work
+    <ArrowRight size={20} />
+  </Link>
+  
+  <Link 
+    to="/contact" 
+    className="bg-white text-mint-600 px-8 py-4 rounded-lg font-medium shadow-lg hover:bg-gray-50 transition-colors inline-flex items-center justify-center min-w-[200px] md:min-w-[180px]"
+  >
+    Get in Touch
+  </Link>
+</div>
           </motion.div>
         </div>
       </div>
