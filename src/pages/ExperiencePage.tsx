@@ -16,15 +16,16 @@ const experienceCategories = {
     items: [
       {
         role: 'Software Engineering Intern',
-        company: 'Tech Innovators Inc.',
-        location: 'San Francisco, CA',
-        date: 'Jun 2023 - Aug 2023',
+        company: 'Renault Group Tangier',
+        location: 'Tangier, MA',
+        date: 'June 2024 - July 2024',
         achievements: [
-          'Developed and shipped a real-time analytics dashboard using React and WebSocket',
-          'Optimized database queries resulting in 40% faster load times',
-          'Collaborated with senior engineers on high-priority features'
+          'Gained valuable insights into how digitalization of information systems enhances quality and efficiency in the industrial sector. Renault, as a leader in this field, showcases how technological innovation is transforming the industry.',
+          'Contributed to the automation and analysis of quality processes by digitalizing defect collection using Demeter.',
+          'Worked on modeling dynamic KPIs using Power BI and Looker, enabling better insights for process optimization',
+          'Participated in an applied AI project focused on the automatic detection of pedestrian crossings in the factory. My role involved refining the YOLO model to improve detection accuracy.'
         ],
-        technologies: ['React', 'TypeScript', 'Node.js', 'PostgreSQL']
+        technologies: ['PowerBI', 'Looker', 'Python', 'TensorFlow','OpenCV']
       },
       {
         role: 'Junior Developer',
